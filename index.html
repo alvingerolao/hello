@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+    }
+    li{
+        list-style: none;
+    }
+    li a{
+        text-decoration: none;
+        color: black;
+    }
+    li a:hover{
+        color:blueviolet yellow ;
+    }
+   .header{
+    z-index: 300;
+   }
+   img{
+    z-index: 200;
+   }
+    
+</style>
+<body>
+    <header>
+        <div class="header" style="display: flex; justify-content: space-between; width: 100%;height: 60px; align-items: center; background-color: rgb(158, 157, 157); position: fixed;">
+            <div style="width:50% ;">
+                <h1 style="color: black;">
+              Reysam <span style="color: violet;">BarberShop</span> 
+                </h1>
+            </div>
+            
+                <ul style="width:50% ;display: flex; gap: 20%;">
+                    <li> <a href="#home">Home</a></li>
+                    <li> <a href="#about" >About</a></li>
+                    <li><a href="">Haircuts</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="home" style="width: 100%;background-color: rgb(226, 226, 226); height: 100%; padding:100px 20px; display: flex; gap: 10px; flex-direction: row; align-items: center;">
+                <div  style="width: 50%;line-height: 30px; height: 100%; display: flex; justify-content: center;align-items: center; flex-direction: column;">
+                       <h1>Welcome to Reysam BarberShop</h1> 
+                    <p>Certified best hairstylist in Cogon </p>
+                    <p>where precision meets style and tradition meets innovation. Our barbershop is more than just a place to get a haircut – it's an experience that transcends the ordinary. Step into a haven where grooming is an art, and each visit is an opportunity to revitalize your look and elevate your confidence.</p>
+                    <button style="background-color: violet; font-weight: bold; color:black;border-radius: 10px; padding: 5px 8px;">Get Started</button>
+                </div>
+                <div style="width: 50%; height: 100%; display: flex; justify-content: center;align-items: center;">
+                <img style="border-radius: 15px;" src="https://i.pinimg.com/736x/ad/1b/8a/ad1b8a8e9cb17320cb2261860a6153b7.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="about" style="width: 100%;background-color: rgb(169, 169, 173); height: 100%; padding:50px 20px; display: flex; gap: 10px; flex-direction: column; align-items: center;">
+                <div style="display: flex; flex-direction: column;gap: 10px;">
+                    <h1 style="text-align: center; width: 100%;" >About Us</h1>
+                    <p>At Reysam BarberShop, we pride ourselves on our commitment to craftsmanship and customer satisfaction. Our team of skilled barbers brings a wealth of expertise and a passion for the art of barbering. Whether you're looking for a classic cut, a modern style, or a personalized grooming experience, we have the talent and creativity to make it happen.</p>
+                </div>
+                <div class="d-flex f-row gap-3 flex-wrap">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://img.freepik.com/premium-photo/client-doing-hair-cut-barber-shop-salon_148840-10582.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Expert Barbers</h5>
+                          <p class="card-text"> Our barbers are highly skilled and trained in the latest cutting-edge techniques. They bring a wealth of experience to ensure that you receive the best haircut and grooming services tailored to your preferences.</p>
+                       
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://i.pinimg.com/originals/4a/44/83/4a4483d8c4203276cf3370bd85913bdd.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Classic and Modern Styles</h5>
+                          <p class="card-text">Whether you prefer a timeless, classic haircut or a more modern and trendy style, our barbers are adept at delivering a wide range of looks. From fades and undercuts to classic pompadours and beard trims, we have the expertise to meet your grooming needs.</p>
+                       
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5fd787d32a8a4a2604b22b5d/4e8705f3-9bc5-4394-b82b-417a0dc4392f/msbsnomask-54559.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Personalized Consultations:</h5>
+                          <p class="card-text">We believe in the importance of understanding your unique style. Our barbers take the time to consult with you, discussing your preferences and offering expert advice to create a look that complements your personality and lifestyle.</p>
+                       
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://i.pinimg.com/originals/43/5a/6c/435a6c5a94a4e90b0f80b347d8ccd054.jpg" style="height: 200px !important;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Comfortable and Inviting Atmosphere</h5>
+                          <p class="card-text">  Step into a welcoming and relaxing environment designed for your comfort. Our barbershop is more than just a place for grooming – it's a space where you can unwind, enjoy the camaraderie, and leave feeling refreshed.</p>
+                       
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="py-5" style="background-color: rgb(53, 53, 53);">
+            <h1 style="text-align: center;">Contact</h1>
+            <div>
+                <div>
+                    <div class="d-flex flex-column gap-2">
+                        <p  class="m-0" style="color: rgb(196, 193, 193);">Facebook:</p>
+                        <p class="m-0" style="color: rgb(228, 225, 225);">Reysam Bandolin</p>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
